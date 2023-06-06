@@ -11,7 +11,7 @@ using System.Xml.Linq;
 
 namespace Continuum_Integration
 {
-    public class Tests
+    public class Tests 
     {
         RestClient client;
         RestResponse response;
