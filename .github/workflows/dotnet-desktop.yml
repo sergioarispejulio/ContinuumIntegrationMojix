@@ -27,17 +27,17 @@ jobs:
         if: ${{ always() }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: './TestProject3/bin/Debug/net6.0/allure-results'
+          publish_dir: './bin/Debug/net6.0/allure-results'
           keep_files: true
-          user_name: elmer-zapata
-          user_email: elmero_7@hotmail.com
+          user_name: sergioarispejuio
+          user_email: sergio_arispe@hotmail.com
           publish_branch: gh_page  
       - name: Test marketplace action
         uses: simple-elf/allure-report-action@master
         if: always()
         id: allure-report
         with:
-          allure_results: './TestProject3/bin/Debug/net6.0/allure-results'
+          allure_results: './bin/Debug/net6.0/allure-results'
           gh_pages: gh-pages
           allure_report: allure-report
       - name: Deploy report to Github Pages
