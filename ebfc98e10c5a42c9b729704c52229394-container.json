@@ -1,0 +1,42 @@
+{
+  "uuid": "94765e2beec94146ba718728399a827d",
+  "children": [
+    "069a2ed14a3d47e0ab110c4e84f8a067"
+  ],
+  "befores": [
+    {
+      "name": "SetUpUserForScenario [10000]",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686035119639,
+      "stop": 1686035119640
+    },
+    {
+      "name": "SetUpUserForScenario [10000]",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686035119640,
+      "stop": 1686035119640
+    }
+  ],
+  "afters": [],
+  "links": [],
+  "start": 1686035119639,
+  "stop": 1686035119790
+}

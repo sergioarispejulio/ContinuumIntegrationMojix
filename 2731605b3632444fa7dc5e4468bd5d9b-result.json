@@ -1,0 +1,83 @@
+{
+  "uuid": "13f8957da05f4634bdc32bf174349fc2",
+  "historyId": "Get all categories",
+  "fullName": "Get all categories",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "fv-az407-991"
+    },
+    {
+      "name": "feature",
+      "value": "Category"
+    },
+    {
+      "name": "tag",
+      "value": "Category"
+    }
+  ],
+  "links": [],
+  "name": "Get all categories",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I want all categories",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686035118979,
+      "stop": 1686035118987
+    },
+    {
+      "name": "When  I send a request - Category",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686035118987,
+      "stop": 1686035119189
+    },
+    {
+      "name": "Then  I expected a list of categories",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686035119189,
+      "stop": 1686035119198
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686035118972,
+  "stop": 1686035119203
+}
