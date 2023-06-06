@@ -1,0 +1,83 @@
+{
+  "uuid": "303405bc386f4c91a3868501ee687beb",
+  "historyId": "Get products with a specific category",
+  "fullName": "Get products with a specific category",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-ORHRT2E"
+    },
+    {
+      "name": "feature",
+      "value": "Product"
+    },
+    {
+      "name": "tag",
+      "value": "Product"
+    }
+  ],
+  "links": [],
+  "name": "Get products with a specific category",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I have the ID of a category with value 5",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686032001636,
+      "stop": 1686032001640
+    },
+    {
+      "name": "When  I send a request - Product",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686032001640,
+      "stop": 1686032001862
+    },
+    {
+      "name": "Then  I expected a list of products only with the category",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686032001862,
+      "stop": 1686032001863
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686032001636,
+  "stop": 1686032001863
+}

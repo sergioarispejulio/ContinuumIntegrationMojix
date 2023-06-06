@@ -1,0 +1,83 @@
+{
+  "uuid": "4e909c6d9acc4594b4a72e311bdfcad9",
+  "historyId": "Get all products",
+  "fullName": "Get all products",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "fv-az590-212"
+    },
+    {
+      "name": "feature",
+      "value": "Product"
+    },
+    {
+      "name": "tag",
+      "value": "Product"
+    }
+  ],
+  "links": [],
+  "name": "Get all products",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I want all products",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686034951950,
+      "stop": 1686034951950
+    },
+    {
+      "name": "When  I send a request - Product",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686034951950,
+      "stop": 1686034951966
+    },
+    {
+      "name": "Then  I expected a list of products",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686034951966,
+      "stop": 1686034951977
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686034951950,
+  "stop": 1686034951977
+}

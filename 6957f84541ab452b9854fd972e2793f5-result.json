@@ -1,0 +1,98 @@
+{
+  "uuid": "66531d06cd7345abab6ff447fef89a87",
+  "historyId": "Create a product",
+  "fullName": "Create a product",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-ORHRT2E"
+    },
+    {
+      "name": "feature",
+      "value": "Product"
+    },
+    {
+      "name": "tag",
+      "value": "Product"
+    }
+  ],
+  "links": [],
+  "name": "Create a product",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I need login to the API",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686032000953,
+      "stop": 1686032001269
+    },
+    {
+      "name": "When  I setting the product to create",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686032001269,
+      "stop": 1686032001269
+    },
+    {
+      "name": "And  I send a request - Product",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686032001269,
+      "stop": 1686032001397
+    },
+    {
+      "name": "Then  I expected a bad request to confirm the creation (API rules)",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686032001397,
+      "stop": 1686032001402
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686032000953,
+  "stop": 1686032001403
+}
