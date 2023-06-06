@@ -26,7 +26,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3.7.3
         if: ${{ always() }}
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: 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@github
           publish_dir: './bin/Debug/net6.0/allure-results'
           keep_files: true
           user_name: sergioarispejuio
@@ -44,6 +44,6 @@ jobs:
         if: always()
         uses: peaceiris/actions-gh-pages@v2
         env:
-          PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PERSONAL_TOKEN: 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@github
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: allure-report    
